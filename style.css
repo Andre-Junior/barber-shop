@@ -28,6 +28,21 @@ li {
 }
 
 #login {
+    background: #000000a4;
+    color: white;
+    margin-left: 50vw;
+    padding-top: inherit;
+    margin-top: 0;
+    padding-bottom: 30vw;
+    border-radius: 0px 0px 0px 15px;
+    text-align: center;
+    color: goldenrod;
+}
+h3 {
+    margin-top: 0;
+}
+.inputText {
     background: black;
     color: white;
+    border: solid 1px white;
 }
