@@ -9,8 +9,9 @@ body{
     display: flex;
     list-style: none;
     font-size: 2em;
-    font-family: monospace;
     margin: 0;
+    font-family: 'Poiret One', cursive;
+    cursor: pointer;
 }
 
 a {
@@ -33,16 +34,43 @@ li {
     margin-left: 50vw;
     padding-top: inherit;
     margin-top: 0;
-    padding-bottom: 30vw;
+    padding-bottom: 11vw;
     border-radius: 0px 0px 0px 15px;
     text-align: center;
+    justify-content: center;
     color: goldenrod;
 }
+
 h3 {
     margin-top: 0;
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-family: 'Poiret One', cursive;
 }
+
 .inputText {
     background: black;
     color: white;
     border: solid 1px white;
+    padding-top: 0.3rem;
+    width: 15rem;
+    justify-items: auto;
+}
+
+.loginP {
+    font-size: 2rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.buTon {
+    background: black;
+    color: goldenrod;
+    border: solid 1px white;
+    border-radius: 5px;
+    width: 10rem;
+    padding: 5px 0 5px 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
 }
