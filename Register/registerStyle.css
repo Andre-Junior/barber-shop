@@ -1,0 +1,17 @@
+body{
+    color: white;
+    background: black;
+}
+.divheader{
+    text-align: center;
+}
+h1 {
+    margin-top: 5rem;
+}
+
+nav {
+    display: flex;
+}
+.esquerda{
+    width: 1rem;
+}
