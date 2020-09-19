@@ -1,20 +1,65 @@
 body{
     color: white;
-    background: black;
+    background: rgb(70, 67, 67);
 }
 .divheader{
     text-align: center;
+    height: 4vw;
 }
 h1 {
-    margin-top: 5rem;
+    margin-top: 15rem;
+    margin-bottom: rem;
+    font-size: 10em;
+    font-family: 'Poiret One', cursive;
+    color: goldenrod;
 }
 
 nav {
     display: flex;
+    height: 100%;   
+    
 }
 .esquerda{
-    width: 1rem;
+    width: 33vw;
+    background-image: url(/imgs/balao-esquerdo.png);
+    background-size: cover;
+}
+.direita{
+    width: 33vw;
+    background-image: url(/imgs/balao-direto.jpg);
+    background-size: cover;
 }
 .form{
-    background-color: black;
+    font-size: 7rem;
+    background-color: rgb(70, 67, 67);
+    width: 34vw;
+    color: goldenrod;
+    font-family: 'Poiret One', cursive;
+}
+.formText {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.formInput {
+    background: black;
+    color: white;
+    border: solid 1px white;
+    justify-items: auto;
+    height: 10rem;
+    width: 30vw;
+    font-size: 4rem;
+}
+.formSu {
+    background: black;
+    color: hsl(43, 74%, 49%);
+    border: solid 1px white;
+    border-radius: 5px;
+    width: 49rem;
+    height: 10rem;
+    padding: 5px 0 5px 0;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    font-family: 'Poiret One', cursive;
 }
