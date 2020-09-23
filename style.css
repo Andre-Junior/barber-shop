@@ -8,15 +8,17 @@ body{
     background-color: #000000a4;
     display: flex;
     list-style: none;
-    font-size: 2em;
+    font-size: 8em;
     margin: 0;
     font-family: 'Poiret One', cursive;
     cursor: pointer;
+    
 }
 
 a {
     text-decoration: none;
     color: white;
+    margin-left: 1em;
 }
 
 li {
@@ -29,13 +31,13 @@ li {
     
 }
 
-#login {
+#container {
     background: #000000a4;
     color: white;
     margin-left: 50vw;
     padding-top: inherit;
     margin-top: 0;
-    padding-bottom: 1.1vw;
+    padding-bottom: 3vw;
     border-radius: 0px 0px 0px 15px;
     text-align: center;
     justify-content: center;
@@ -44,7 +46,7 @@ li {
 
 h3 {
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 10rem;
     font-family: 'Poiret One', cursive;
 }
 
@@ -52,13 +54,14 @@ h3 {
     background: black;
     color: white;
     border: solid 1px white;
-    padding-top: 0.3rem;
-    width: 15rem;
-    justify-items: auto;
+    padding-top: 3rem;
+    width: 70em;
+    align-items: flex-end;
+    
 }
 
 .loginP {
-    font-size: 2rem;
+    font-size: 9rem;
     font-family: 'Poiret One', cursive;
 }
 
@@ -67,15 +70,18 @@ h3 {
     color: hsl(43, 74%, 49%);
     border: solid 1px white;
     border-radius: 5px;
-    width: 10rem;
+    width: 45rem;
     padding: 5px 0 5px 0;
-    margin-left: 1rem;
-    margin-top: 0.8rem;
-    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 6rem;
     font-family: 'Poiret One', cursive;
 }
 
 .logo{
-    width: 13rem;
+    width: 50rem;
     padding-bottom: 1rem;
+}
+#ali {
+    justify-content: end;
 }
