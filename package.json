@@ -1,0 +1,19 @@
+{
+  "name": "barber-shop",
+  "homepage": "https://Andre-Junior.github.io/barber-shop",
+  "version": "1.0.0",
+  "description": "Projeto criado, para barbearia. Os clientes poderam agendar seus horário se registrando e fazendo o login.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-Junior/barber-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-Junior/barber-shop/issues"
+  }
+}
