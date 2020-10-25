@@ -2,6 +2,7 @@ body{
     margin: 0;
     background: url(./imgs/background.jpg);
     background-size: cover;
+    background-position: fixed;
 }
 
 .headerMan {
@@ -78,4 +79,13 @@ h3 {
 .logo{
     width: 13rem;
     padding-bottom: 1rem;
+}
+
+.sobrenos {
+    background: black;
+    clip-path: polygon(100% 0, 25% 54%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 95%;
 }
