@@ -1,5 +1,11 @@
 body{
     margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.fundo{
+    margin: 0;
     background: url(./imgs/background.jpg);
     background-size: cover;
     background-position: fixed;
@@ -82,10 +88,24 @@ h3 {
 }
 
 .sobrenos {
-    background: black;
+    background-color: white;
+    background-color: #000000a4;
     clip-path: polygon(100% 0, 25% 54%, 100% 100%, 0 100%, 0% 50%, 0 0);
     color: white;
     margin: 0;
     padding: 0;
-    height: 95%;
+    height: 100vh;
+    width: 95%;
+}
+.h2sobre {
+    margin-top: 0;
+}
+.section-sobre{
+    background-image: url(./imgs/Fundo-3.jpg);
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+}
+.p-sobre {
+    width: 4%;
 }
